@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	background-color: #FFE4C4;
+	background-color: #ffcc8d;
 }
 
 .header {
@@ -13,8 +13,8 @@ body {
 	transition: transform 0.3s ease;
 }
 
-.contacts {
-    width: 35px;
+.contactlogo {
+	width: 35px;
 	height: auto;
 	display: inline-block;
 	vertical-align: middle;
@@ -22,5 +22,56 @@ body {
 
 .title {
 	color: white;
-	font-size: 30px;
+	font-size: 35px;
+	font-family: Elephant;
+}
+
+.categories {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #752d06;
+	font-family: Elephant;
+	color: white;
+	padding: 25px 90px;
+	transition: transform 0.3s ease;
+}
+
+.timeline {
+	background-color: #ffe4c4;
+	margin: 0px 80px 10px 80px;
+	padding: 5px 5px 1000px 5px;
+}
+
+.frtitle {
+	font-family: elephant;
+}
+
+.firstrecipe {
+	float: left;
+	width: 150px;
+	margin: 0px;
+	padding: 5px 5px 5px 30px ;
+	font-size: 15px;
+	text-align: justify;
+}
+
+.luzonfood {
+	float: right;
+	width: 150px;
+	margin: 5px;
+	padding: 60px 20px 15px 20px;
+	font-size: 15px;
+}
+
+.srtitle {
+	font-family: elephant;
+}
+
+.secondrecipe {
+	float: left;
+	width: 150px;
+	margin: 0px;
+	padding: 5px;
+	font-size: 15px;
 }
