@@ -3,6 +3,24 @@ body {
 	background-color: #FFE4C4;
 }
 
-header {
-    background-color: black;
+.header {
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #87553B;
+	color: #000000;
+	padding: 25px 90px;
+	transition: transform 0.3s ease;
+}
+
+.contacts {
+    width: 35px;
+	height: auto;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.title {
+	color: white;
+	font-size: 30px;
 }
